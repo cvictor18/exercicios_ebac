@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- link para os ícones -->
+    <script src="https://kit.fontawesome.com/e432a1bc0a.js" crossorigin="anonymous"></script>
+    <!-- link para as fontes -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Formulário de Cadastro</h1>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox"><span class="fa-solid fa-angle-down"></span></label>        
+        </div>
+    </header>
+    <form>
+        <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="tel" name="tel" id="tel" placeholder="Celular">
+        <input type="text" name="cpf" id="cpf" placeholder="CPF">
+        <input type="text" name="endereco" id="endereco" placeholder="Endereço Completo">
+        <input type="text" name="cep" id="cep" placeholder="CEP"> 
+        <button type="submit">Enviar</button>      
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./plugins/jquery.mask.min.js"></script>
+    <script src="./plugins/jquery.validate.min.js"></script>
+    <script src="./plugins/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        &copy; Copyright
+    </footer>
+</body>
+</html>
